@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "statusbar": {
+    "immersed": false
+  },
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {
+    "nav-barx": "/pages/tarBar/home/navbarx"
+  }
+}

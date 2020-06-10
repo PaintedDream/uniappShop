@@ -1,0 +1,100 @@
+{
+	"pages": [
+		{
+			"path": "pages/tarBar/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"statusbar": {  
+				        "immersed": false  
+				    },
+				"app-plus": {
+									"titleNView": false,
+									"bounce": "none"
+								}
+			}
+		},{
+			"path": "pages/tarBar/categroy/category",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+									"titleNView": false,
+									"bounce": "none"
+								}
+			}
+		},{
+			"path": "pages/tarBar/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},{
+			"path": "pages/tarBar/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
+			"path": "pages/goods/goodsList",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},{
+			"path": "pages/goods/goodXqing",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},{
+			"path": "pages/goods/rating",
+			"style": {
+				"navigationBarTitleText": "商品评价"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "新uniapp商城",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"condition": {
+		"current": 0,
+		"list": [
+			{
+				"name": "",
+				"path": "",
+				"query": ""
+			}
+		]
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor":"#d4237a",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/tarBar/home/home",
+				"iconPath":"static/home/home.png",
+				"selectedIconPath":"static/home/homrOn.png",
+				"text":"首页"
+				
+			},{
+				"pagePath":"pages/tarBar/categroy/category",
+				"iconPath":"static/category/category.png",
+				"selectedIconPath":"static/category/categoryOn.png",
+				"text":"分类"
+				
+			},{
+				"pagePath":"pages/tarBar/cart/cart",
+				"iconPath":"static/cart/cart.png",
+				"selectedIconPath":"static/cart/cartOn.png",
+				"text":"购物车"
+				
+			},{
+				"pagePath":"pages/tarBar/user/user",
+				"iconPath":"static/user/user.png",
+				"selectedIconPath":"static/user/useron.png",
+				"text":"我的"
+				
+			}
+		]
+	}
+}

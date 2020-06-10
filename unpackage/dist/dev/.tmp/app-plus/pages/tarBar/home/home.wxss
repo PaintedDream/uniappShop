@@ -1,0 +1,109 @@
+
+.uni-padding-wrap{
+	margin: 20rpx;
+}
+.swiperimg{
+	border-radius: 10%;
+}
+.categoryNav{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap:  wrap ;
+	    -ms-flex-wrap:  wrap ;
+	        flex-wrap:  wrap ;
+	margin: 5rpx 6%;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between ;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between ;
+}
+.categoryList{
+	width:23%;
+}
+.categoryImg image{
+	width: 80%;
+	height: 100rpx;
+}
+.categorytext{
+	font-size: 25rpx;
+	
+	width: 80%;
+	text-align: center;
+	color:
+}
+.adImg{
+	width: 88%;
+	height: 230rpx;
+	padding: 5rpx 6%;
+}
+.adImg image{
+	width: 100%;
+	height: 200rpx;
+}
+.promotionList{
+	width: 94%;
+	margin: 4rpx 3%;
+	padding-bottom: 25rpx;
+}
+.promotionTitle{
+	font-weight: 900;
+	
+	display:inline;
+	line-height: 40rpx;
+}
+.ptitle{
+	font-weight: 400;
+	
+	display:inline;
+	line-height: 45rpx;
+}
+.ListBig{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	
+	-webkit-box-pack: justify;
+	
+	-webkit-justify-content: space-between;
+	
+	    -ms-flex-pack: justify;
+	
+	        justify-content: space-between;
+}
+.promotionContent{
+	width: 48%;
+	background-color:#ebf9f9;
+	padding: 4rpx 4rpx;
+	height: 185rpx;
+}
+.duringContent{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.duringContent .left{
+	font-size: 20rpx;
+	color:#555555;
+}
+.rimg{
+	width: 50%;
+}
+.rimg image{
+	width: 150rpx;
+	height: 120rpx;
+}
+.proButton{
+	font-size: 20rpx;
+	color: #555555;
+	position: relative;
+	top:-50rpx;
+}
+	
+	
+	
+

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/tarBar/home/home",
+    "pages/tarBar/categroy/category",
+    "pages/tarBar/cart/cart",
+    "pages/tarBar/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "新uniapp商城",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#d4237a",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/tarBar/home/home",
+        "iconPath": "static/home/home.png",
+        "selectedIconPath": "static/home/homrOn.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tarBar/categroy/category",
+        "iconPath": "static/category/category.png",
+        "selectedIconPath": "static/category/categoryOn.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/tarBar/cart/cart",
+        "iconPath": "static/cart/cart.png",
+        "selectedIconPath": "static/cart/cartOn.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/tarBar/user/user",
+        "iconPath": "static/user/user.png",
+        "selectedIconPath": "static/user/useron.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "v-button": "/wxcomponents/vant/button/index"
+  }
+}
